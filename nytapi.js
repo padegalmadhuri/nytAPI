@@ -210,7 +210,7 @@ fetch("https://api.nytimes.com/svc/topstories/v2/home.json?api-key=s6pzBL6UdYvaC
           <div class="row no-gutters">
           <div class="col-md-8">
           <div class="card-body">
-          <h4 style="color:blue;font-weight:bolder;font-family:Dancing Script>`+rest.section.toUpperCase()+`</h4>
+          <h4 style="color:blue;font-weight:bolder;font-family:Dancing Script">`+rest.section.toUpperCase()+`</h4>
           <h5 class="card-title">`+rest.title+`</h5>
           <p style="color:grey;opacity:0.7;">`+rest.created_date+`</p>
           <h3>`+rest.byline+`</h3>
@@ -252,7 +252,7 @@ fetch("https://api.nytimes.com/svc/topstories/v2/home.json?api-key=s6pzBL6UdYvaC
             <div class="row no-gutters">
                 <div class="col-md-8">
                 <div class="card-body">
-                <h4 style="color:blue;font-weight:bolder;font-family:Dancing Script>`+rest.section.toUpperCase()+`</h4>
+                <h4 style="color:blue;font-weight:bolder;font-family:Dancing Script">`+rest.section.toUpperCase()+`</h4>
                   <h5 class="card-title">`+rest.title+`</h5>
                   <p style="color:grey;opacity:0.7;">`+rest.created_date+`</p>
                   <h3>`+rest.byline+`</h3>
